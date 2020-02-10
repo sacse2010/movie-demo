@@ -1,0 +1,171 @@
+.bg-dark {
+  background-color: #081c24 !important;
+}
+/* search bar */
+.search-form-control-custom {
+  border: none !important;
+  font-style: italic;
+}
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+/* bottom-search  */
+
+div.new_stuff_wrapper {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+
+div.block {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 0;
+}
+
+div.purple_gradient {
+  background-image: radial-gradient(
+    at 30% top,
+    rgba(31, 40, 73, 1) 0%,
+    rgba(8, 28, 36, 1) 70%
+  );
+}
+
+div.stamp {
+  background-color: #fcbaec;
+  background-image: url('https://www.themoviedb.org/assets/2/v4/taw/2019/WelcomeConfetti-355141b29e6dd8e587e0c138683073c54ff0dc3427eba3b8f908bd0de66e0a45.svg');
+  background-repeat: no-repeat;
+  background-position: center -40px;
+  background-size: 100%;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  div.stamp {
+    background-image: url('https://www.themoviedb.org/assets/2/v4/taw/2019/WelcomeConfetti-355141b29e6dd8e587e0c138683073c54ff0dc3427eba3b8f908bd0de66e0a45.svg');
+    background-position: center 0;
+  }
+}
+
+div.stamp div.inner_content a,
+div.stamp div.inner_content p {
+  color: #090170;
+}
+
+div.inner_content {
+  box-sizing: border-box;
+  width: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  text-align: center;
+  padding: 20px 0;
+}
+
+div.purple_gradient div.inner_content {
+  background-position: -40px -500px;
+
+  background-image: url('https://www.themoviedb.org/assets/2/v4/account_pipes/purple-63b164a075461641b7ef444ea97d9787adf45a9552fe215e20063e3ff02491a8.svg');
+}
+
+div.inner_content a {
+  color: #fff;
+  transition: all 0.3s;
+}
+
+div.purple_gradient a:hover {
+  color: #805be7;
+}
+
+div.inner_content h2,
+div.inner_content p {
+  margin: 0;
+}
+
+div.block p a {
+  text-transform: uppercase;
+}
+
+div.purple_gradient p a {
+  color: #805be7;
+}
+
+.col-sm-coustom {
+  padding: 0;
+}
+.media-img {
+  width: 100%;
+}
+
+#movies img,
+#movie img {
+  width: 100%;
+}
+.brand-text {
+  font-size: 2rem;
+}
+#react-logo {
+  color: #00d8ff;
+}
+#imdb-logo {
+  color: #f5de50;
+}
+@media (min-width: 960px) {
+  #movies .col-md-3 .well {
+    height: 390px;
+  }
+
+  #movies .col-md-3 img {
+    height: 240px;
+  }
+}
+a.text {
+  color: #fff;
+  text-shadow: 1px 1px 0 #000;
+  display: block;
+}
+a.text:hover {
+  text-decoration: none;
+}
+.media-text {
+  position: absolute;
+  color: #fff;
+  z-index: 2;
+  margin: -64px 66px 0 50px;
+}
+.media-text-p {
+  font-size: 0.9em;
+}
+.media-text-thum {
+  position: absolute;
+  color: #fff;
+  z-index: 2;
+  margin: -64px 14px 0;
+}
+.custom-text-head {
+  padding: 0;
+  margin: 0;
+}
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
